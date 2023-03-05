@@ -2,6 +2,7 @@
 ## Table of content
 - [Sort description](#sort-description)
 - [Needs and troubles/risks](#needs-and-troubles)
+- [Licence](#licence)
 
 <a name=sort-description>
 
@@ -17,3 +18,8 @@ The table information is incomplete for now.
 | --- | --- |
 | As user I want to be able to log in the app |  |
 | ... | ... |
+
+<a name=needs-and-troubles>
+
+## Licence
+[GNU GPLv3](https://github.com/pablomgdev/cachivache2-api/blob/main/LICENSE).
