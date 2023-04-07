@@ -32,6 +32,7 @@ Would you like to add new features or ideas? Do you know how to improve the code
   
 ## 🧱 Pending
 - Add app name.
+- Add "Project setup" section to show the tools needed, how to configure the project and how to run it.
 - Add documentation about the app on GitHub project wiki (how the app works, use cases, architecture, etc).
 - Create issues. Take a look at the [Trello dashboard](https://trello.com/b/XdhidjwC/app-for-given-gifts).
 - Add link to the frontend app when it exists.
