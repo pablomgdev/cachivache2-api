@@ -5,6 +5,7 @@ API for an app that allows its users to upload images of the things they like, l
 ## 📄 Table of content
 - [What is this app for?](#what-is-this-app-for)
 - [Project dashboard](#project-dashboard)
+- [Contribute](#contribute)
 - [Pending](#pending)
 - [Licence](#licence)
   
@@ -22,6 +23,11 @@ If you are a person who does not know what to buy someone, this is your salvatio
 ## 📊 Project dashboard
 It is managed on Trello. There can be found all the project ideas, tasks and their states. [Click here to go there](https://trello.com/b/XdhidjwC/app-for-given-gifts).
 
+<a name=contribute>
+
+## 👥 Contribute
+Would you like to add new features or ideas? Do you know how to improve the code? Is there any typo? Is there something wrong? Please, feel free to contribute.
+
 <a name=pending>
   
 ## 🧱 Pending
@@ -29,7 +35,7 @@ It is managed on Trello. There can be found all the project ideas, tasks and the
 - Add documentation about the app on GitHub project wiki (how the app works, use cases, architecture, etc).
 - Create issues. Take a look at the [Trello dashboard](https://trello.com/b/XdhidjwC/app-for-given-gifts).
 - Add link to the frontend app when it exists.
-  
+
 <a name=licence>
   
 ## 🪪 Licence
