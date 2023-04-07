@@ -26,7 +26,7 @@ It is managed on Trello. There can be found all the project ideas, tasks and the
 <a name=contribute>
 
 ## 👥 Contribute
-Would you like to add new features or ideas? Do you know how to improve the code? Is there something wrong? Please, feel free to contribute.
+Would you like to add new features or ideas? Do you know how to improve the code? Is there something wrong or outdated? Please, feel free to contribute.
 
 <a name=pending>
   
