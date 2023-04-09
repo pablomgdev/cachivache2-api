@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{E53A16B7-E2F5-4D27-BE71-286D9FD48263}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "src\Api\Api.csproj", "{E53A16B7-E2F5-4D27-BE71-286D9FD48263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSdk", "ApiSdk\ApiSdk.csproj", "{9F2A2E74-3A3D-49C4-9D8E-7CCD691D116D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSdk", "src\ApiSdk\ApiSdk.csproj", "{9F2A2E74-3A3D-49C4-9D8E-7CCD691D116D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E834A113-0ACD-4E45-8CF9-B422B0ECE3D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users", "Users\Users.csproj", "{C9D0B4EB-AB46-4A9F-819D-B6EA3A5A9652}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users", "src\Users\Users.csproj", "{C9D0B4EB-AB46-4A9F-819D-B6EA3A5A9652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{BD7F6374-5DC8-4D7C-83F0-4F4D2E3D9021}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Shared\Shared.csproj", "{BD7F6374-5DC8-4D7C-83F0-4F4D2E3D9021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRequests", "AppRequests\AppRequests.csproj", "{275A3CD7-B7BB-4CEB-A292-CC4C3C4AD89D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRequests", "src\AppRequests\AppRequests.csproj", "{275A3CD7-B7BB-4CEB-A292-CC4C3C4AD89D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presents", "Presents\Presents.csproj", "{ECC04A6C-B26C-4C45-808E-C474A61340A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presents", "src\Presents\Presents.csproj", "{ECC04A6C-B26C-4C45-808E-C474A61340A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "Notifications\Notifications.csproj", "{C218BBF5-567F-4FAD-AA00-3CDC01052CDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "src\Notifications\Notifications.csproj", "{C218BBF5-567F-4FAD-AA00-3CDC01052CDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
