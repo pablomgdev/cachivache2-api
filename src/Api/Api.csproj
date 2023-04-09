@@ -11,4 +11,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApiSdk\ApiSdk.csproj" />
+    <ProjectReference Include="..\Users\Users.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+    <ProjectReference Include="..\AppRequests\AppRequests.csproj" />
+    <ProjectReference Include="..\Presents\Presents.csproj" />
+    <ProjectReference Include="..\Notifications\Notifications.csproj" />
+  </ItemGroup>
+
 </Project>
