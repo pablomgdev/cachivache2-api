@@ -23,12 +23,13 @@ If you are a person who does not know what to buy someone, this is your salvatio
 
 <a name=project-structure>
 
-## Project structure
+## 🏛️ Project structure
 
-Is based on ports and adapters architecture with vertical slicing and Domain Driven Desing (DDD).
+Is based on ports and adapters architecture with vertical slicing and Domain Driven Desing (DDD). Look at the [architecture](https://github.com/pablomgdev/cachivache2-api/blob/main/docs/diagrams/architecture/excalidraw-rest-api-architecture.png) on the docs folder.
 
 <details>
 <summary>See structure</summary>
+
 Note: if it is outdated, feel free to update it.
 
 ```zsh
