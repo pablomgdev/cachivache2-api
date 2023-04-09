@@ -32,105 +32,63 @@ Is based on ports and adapters architecture with vertical slicing and Domain Dri
 Note: if it is outdated, feel free to update it.
 
 ```zsh
-tree src -I "bin|obj|*.csproj" src
+tree -L 4 src -I "obj|bin"
 src
 ├── Api
-│   ├── Controllers
-│   │   └── UsersController.cs
-│   ├── Program.cs
-│   ├── Properties
-│   │   └── launchSettings.json
-│   ├── appsettings.Development.json
-│   └── appsettings.json
+│   ├── Api.csproj
+│   ├── Controllers
+│   │   └── UsersController.cs
+│   ├── Program.cs
+│   ├── Properties
+│   │   └── launchSettings.json
+│   ├── appsettings.Development.json
+│   └── appsettings.json
 ├── ApiSdk
-│   ├── ApiResponse.cs
-│   ├── ApiResponseError.cs
-│   ├── Requests
-│   └── Responses
+│   ├── ApiResponse.cs
+│   ├── ApiResponseError.cs
+│   ├── ApiSdk.csproj
+│   ├── Requests
+│   └── Responses
 ├── AppRequests
-│   ├── Application
-│   ├── Domain
-│   └── Infrastructure
+│   ├── AppRequests.csproj
+│   ├── Application
+│   │   └── AppRequests.Application.csproj
+│   ├── Domain
+│   │   └── AppRequests.Domain.csproj
+│   └── Infrastructure
+│       └── AppRequests.Infrastructure.csproj
 ├── Notifications
-│   ├── Application
-│   │   └── Class1.cs
-│   ├── Class1.cs
-│   ├── Domain
-│   │   └── Class1.cs
-│   └── Infrastructure
-│       └── Class1.cs
+│   ├── Application
+│   │   └── Notifications.Application.csproj
+│   ├── Domain
+│   │   └── Notifications.Domain.csproj
+│   ├── Infrastructure
+│   │   └── Notifications.Infrastructure.csproj
+│   └── Notifications.csproj
 ├── Presents
-│   ├── Application
-│   │   └── Class1.cs
-│   ├── Class1.cs
-│   ├── Domain
-│   │   └── Class1.cs
-│   └── Infrastructure
-│       └── Class1.cs
+│   ├── Application
+│   │   └── Presents.Application.csproj
+│   ├── Domain
+│   │   └── Presents.Domain.csproj
+│   ├── Infrastructure
+│   │   └── Presents.Infrastructure.csproj
+│   └── Presents.csproj
 ├── Shared
-│   └── Domain
-│       └── Users
-│           ├── Exceptions
-│           │   ├── InvalidUserEmailException.cs
-│           │   └── InvalidUserUsernameException.cs
-│           └── ValueObjects
-│               ├── UserEmail.cs
-│               ├── UserId.cs
-│               └── UserUsername.cs
+│   ├── Domain
+│   │   ├── Shared.Domain.csproj
+│   │   └── Users
+│   │       ├── Exceptions
+│   │       └── ValueObjects
+│   └── Shared.csproj
 └── Users
     ├── Application
+    │   └── Users.Application.csproj
     ├── Domain
-    │   └── User.cs
-    └── Infrastructure
-src
-├── Api
-│   ├── Controllers
-│   │   └── UsersController.cs
-│   ├── Program.cs
-│   ├── Properties
-│   │   └── launchSettings.json
-│   ├── appsettings.Development.json
-│   └── appsettings.json
-├── ApiSdk
-│   ├── ApiResponse.cs
-│   ├── ApiResponseError.cs
-│   ├── Requests
-│   └── Responses
-├── AppRequests
-│   ├── Application
-│   ├── Domain
-│   └── Infrastructure
-├── Notifications
-│   ├── Application
-│   │   └── Class1.cs
-│   ├── Class1.cs
-│   ├── Domain
-│   │   └── Class1.cs
-│   └── Infrastructure
-│       └── Class1.cs
-├── Presents
-│   ├── Application
-│   │   └── Class1.cs
-│   ├── Class1.cs
-│   ├── Domain
-│   │   └── Class1.cs
-│   └── Infrastructure
-│       └── Class1.cs
-├── Shared
-│   └── Domain
-│       └── Users
-│           ├── Exceptions
-│           │   ├── InvalidUserEmailException.cs
-│           │   └── InvalidUserUsernameException.cs
-│           └── ValueObjects
-│               ├── UserEmail.cs
-│               ├── UserId.cs
-│               └── UserUsername.cs
-└── Users
-    ├── Application
-    ├── Domain
-    │   └── User.cs
-    └── Infrastructure
+    │   ├── User.cs
+    │   └── Users.Domain.csproj
+    ├── Infrastructure
+    │   └── Users.Infrastructure.csproj
+    └── Users.csproj
 ```
 
 </details>
