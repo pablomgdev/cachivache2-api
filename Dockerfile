@@ -32,8 +32,7 @@ COPY src/Shared/Domain/*.csproj src/Shared/Domain/
 RUN dotnet restore
 
 COPY . .
-# RUN dotnet publish src/Api/Api.csproj -c Release -o out --no-restore
-RUN dotnet publish src/Api/Api.csproj -c Release -o out
+RUN dotnet publish src/Api/Api.csproj -c Release -o out --no-restore
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0
 WORKDIR /app
