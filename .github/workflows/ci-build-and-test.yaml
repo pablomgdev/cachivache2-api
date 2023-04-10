@@ -18,7 +18,6 @@ jobs:
       - name: 📦 Install dependencies
         run: dotnet restore
       - name: 🏗️ Build
-        # TODO: see if it is better to add "--configuration Release"
-        run: dotnet build --no-restore
+        run: dotnet build --configuration Release --no-restore
       - name: 🧪 Test
         run: dotnet test --no-restore --verbosity normal
