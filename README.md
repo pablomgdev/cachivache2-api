@@ -32,63 +32,62 @@ Is based on ports and adapters architecture with vertical slicing and Domain Dri
 
 Note: if it is outdated, feel free to update it.
 
-```zsh
-tree -L 4 src -I "obj|bin"
+```shell
 src
 ├── Api
-│   ├── Api.csproj
-│   ├── Controllers
-│   │   └── UsersController.cs
-│   ├── Program.cs
-│   ├── Properties
-│   │   └── launchSettings.json
-│   ├── appsettings.Development.json
-│   └── appsettings.json
+│   ├── Api.csproj
+│   ├── Controllers
+│   │   └── UsersController.cs
+│   ├── Program.cs
+│   ├── Properties
+│   │   └── launchSettings.json
+│   ├── appsettings.Development.json
+│   └── appsettings.json
 ├── ApiSdk
-│   ├── ApiResponse.cs
-│   ├── ApiResponseError.cs
-│   ├── ApiSdk.csproj
-│   ├── Requests
-│   └── Responses
+│   ├── ApiResponse.cs
+│   ├── ApiResponseError.cs
+│   ├── ApiSdk.csproj
+│   ├── Requests
+│   └── Responses
 ├── AppRequests
-│   ├── AppRequests.csproj
-│   ├── Application
-│   │   └── AppRequests.Application.csproj
-│   ├── Domain
-│   │   └── AppRequests.Domain.csproj
-│   └── Infrastructure
-│       └── AppRequests.Infrastructure.csproj
+│   ├── AppRequests.csproj
+│   ├── Application
+│   │   └── AppRequests.Application.csproj
+│   ├── Domain
+│   │   └── AppRequests.Domain.csproj
+│   └── Infrastructure
+│       └── AppRequests.Infrastructure.csproj
 ├── Notifications
-│   ├── Application
-│   │   └── Notifications.Application.csproj
-│   ├── Domain
-│   │   └── Notifications.Domain.csproj
-│   ├── Infrastructure
-│   │   └── Notifications.Infrastructure.csproj
-│   └── Notifications.csproj
+│   ├── Application
+│   │   └── Notifications.Application.csproj
+│   ├── Domain
+│   │   └── Notifications.Domain.csproj
+│   ├── Infrastructure
+│   │   └── Notifications.Infrastructure.csproj
+│   └── Notifications.csproj
 ├── Presents
-│   ├── Application
-│   │   └── Presents.Application.csproj
-│   ├── Domain
-│   │   └── Presents.Domain.csproj
-│   ├── Infrastructure
-│   │   └── Presents.Infrastructure.csproj
-│   └── Presents.csproj
+│   ├── Application
+│   │   └── Presents.Application.csproj
+│   ├── Domain
+│   │   └── Presents.Domain.csproj
+│   ├── Infrastructure
+│   │   └── Presents.Infrastructure.csproj
+│   └── Presents.csproj
 ├── Shared
-│   ├── Domain
-│   │   ├── Shared.Domain.csproj
-│   │   └── Users
-│   │       ├── Exceptions
-│   │       └── ValueObjects
-│   └── Shared.csproj
+│   ├── Domain
+│   │   ├── Shared.Domain.csproj
+│   │   └── Users
+│   │       ├── Exceptions
+│   │       └── ValueObjects
+│   └── Shared.csproj
 └── Users
     ├── Application
-    │   └── Users.Application.csproj
+    │   └── Users.Application.csproj
     ├── Domain
-    │   ├── User.cs
-    │   └── Users.Domain.csproj
+    │   ├── User.cs
+    │   └── Users.Domain.csproj
     ├── Infrastructure
-    │   └── Users.Infrastructure.csproj
+    │   └── Users.Infrastructure.csproj
     └── Users.csproj
 ```
 
