@@ -1,5 +1,7 @@
 <h1 align=center>API 4 Cachivache2</h1>
 
+[![Build and test](https://github.com/pablomgdev/cachivache2-api/actions/workflows/ci-build-and-test.yaml/badge.svg?branch=main)](https://github.com/pablomgdev/cachivache2-api/actions/workflows/ci-build-and-test.yaml)
+
 API for an app that allows its users to upload images of the things they like, let their friends know what they are those things in order know what to give them when they need that information (special moments like birthdays, for example).
 
 ## 📄 Table of content
