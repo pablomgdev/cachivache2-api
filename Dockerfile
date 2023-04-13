@@ -34,8 +34,8 @@ RUN dotnet restore
 COPY . .
 RUN dotnet publish src/Api/Api.csproj -c Release -o out --no-restore
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0
+FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
-ENV ASPNETCORE_URLS http://*:5010
+EXPOSE 80
 COPY --from=build /app/out .
 ENTRYPOINT ["dotnet", "Api.dll"]
