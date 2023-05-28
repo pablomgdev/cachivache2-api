@@ -28,6 +28,7 @@ COPY src/Users/Infrastructure/*.csproj src/Users/Infrastructure/
 
 COPY src/Shared/*.csproj src/Shared/
 COPY src/Shared/Domain/*.csproj src/Shared/Domain/
+COPY src/Shared/Infrastructure/*.csproj src/Shared/Infrastructure/
 
 RUN dotnet restore
 
