@@ -1,0 +1,22 @@
+services:
+  rabbitmq:
+    container_name: rabbitmq
+    image: "rabbitmq:3.10.23-management-alpine"
+    restart: unless-stopped
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=${RABBITMQ_USER}
+      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_PASSWORD}
+
+  app:
+    container_name: cachivache2-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - rabbitmq
