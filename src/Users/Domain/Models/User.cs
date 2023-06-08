@@ -1,6 +1,6 @@
 using Shared.Domain.Users.ValueObjects;
 
-namespace Users.Domain;
+namespace Users.Domain.Models;
 
 public sealed class User
 {
