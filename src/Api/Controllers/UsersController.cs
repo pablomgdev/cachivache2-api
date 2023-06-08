@@ -23,9 +23,12 @@ public sealed class UsersController : ControllerBase
     /// </summary>
     /// <returns>List of users.</returns>
     [HttpGet]
+    [ProducesResponseType(typeof(ApiResponse<List<User>>), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiResponse<List<User>>), StatusCodes.Status500InternalServerError)]
     public ApiResponse<List<User>> GetAllUsers()
     {
         List<User> users = _usersSearcher.SearchAll();
+        // TODO: return the values of the users properties, no the User objects directly.
         return ApiResponse<List<User>>.Ok(users);
     }
 }
