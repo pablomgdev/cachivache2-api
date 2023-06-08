@@ -4,5 +4,6 @@ namespace Users.Domain.Repositories;
 
 public interface IUsersRepository
 {
+    User Save(User user);
     List<User> SearchAll();
 }

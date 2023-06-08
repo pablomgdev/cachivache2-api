@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // My services
+builder.Services.AddTransient<UserCreator>();
 builder.Services.AddTransient<UsersSearcher>();
 builder.Services.AddTransient<IUsersRepository, InMemoryUsersRepository>();
 

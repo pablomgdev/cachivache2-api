@@ -1,4 +1,5 @@
 using ApiSdk;
+using ApiSdk.Requests;
 
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,10 +13,28 @@ namespace Api.Controllers;
 public sealed class UsersController : ControllerBase
 {
     private readonly UsersSearcher _usersSearcher;
+    private readonly UserCreator _userCreator;
 
-    public UsersController(UsersSearcher usersSearcher)
+    public UsersController(
+        UsersSearcher usersSearcher,
+        UserCreator userCreator)
     {
         _usersSearcher = usersSearcher;
+        _userCreator = userCreator;
+    }
+
+    /// <summary>
+    /// Creates an user.
+    /// </summary>
+    /// <returns>User created.</returns>
+    [HttpPost]
+    [ProducesResponseType(typeof(ApiResponse<User>), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ApiResponse<User>), StatusCodes.Status500InternalServerError)]
+    public ApiResponse<User> CreateUser([FromBody] CreateUserRequest request)
+    {
+        User user = _userCreator.Create(request.UserName, request.Email);
+        // TODO: return the values of the users properties, no the User objects directly.
+        return ApiResponse<User>.Created(user);
     }
 
     /// <summary>
