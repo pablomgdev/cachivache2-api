@@ -1,7 +1,7 @@
-<h1 align=center>API 4 Cachivache2</h1>
-
 > [!WARNING]  
-> This repository is no longer mantained. This solution will be done in another repository and in another way.
+> This repository is no longer maintained.
+
+<h1 align=center>API 4 Cachivache2</h1>
 
 [![Build and test](https://github.com/pablomgdev/cachivache2-api/actions/workflows/ci-build-and-test.yaml/badge.svg?branch=main)](https://github.com/pablomgdev/cachivache2-api/actions/workflows/ci-build-and-test.yaml)
 
