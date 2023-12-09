@@ -1,5 +1,8 @@
 <h1 align=center>API 4 Cachivache2</h1>
 
+> [!WARNING]  
+> This repository is no longer mantained. This solution will be done in another repository and in another way.
+
 [![Build and test](https://github.com/pablomgdev/cachivache2-api/actions/workflows/ci-build-and-test.yaml/badge.svg?branch=main)](https://github.com/pablomgdev/cachivache2-api/actions/workflows/ci-build-and-test.yaml)
 
 API for an app that allows its users to upload images of the things they like, let their friends know what they are those things in order know what to give them when they need that information (special moments like birthdays, for example).
@@ -99,7 +102,7 @@ src
 
 ## 📊 Project dashboard
 
-It is managed on Trello. There can be found all the project ideas, tasks and their states. [Click here to go there](https://trello.com/b/XdhidjwC/app-for-given-gifts).
+It is managed on Trello. There can be found all the project ideas, tasks and their states. ~~Click here to go there~~.
 
 <a name=contribute>
 
@@ -113,7 +116,7 @@ Would you like to add new features or ideas? Do you know how to improve the code
 - Add app name.
 - Add "Project setup" section to show the tools needed, how to configure the project and how to run it.
 - Add documentation about the app on GitHub project wiki (how the app works, use cases, architecture, etc).
-- Create issues. Take a look at the [Trello dashboard](https://trello.com/b/XdhidjwC/app-for-given-gifts).
+- Create issues. Take a look at the ~~Trello dashboard~~.
 - Add link to the frontend app when it exists.
 
 <a name=licence>
