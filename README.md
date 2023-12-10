@@ -1,5 +1,5 @@
 > [!WARNING]  
-> This repository is no longer maintained.
+> This repository is no longer maintained. See [the new monorepo](https://github.com/pablomgdev/cachivache2).
 
 <h1 align=center>API 4 Cachivache2</h1>
 
